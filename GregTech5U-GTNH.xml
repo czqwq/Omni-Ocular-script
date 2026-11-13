@@ -712,7 +712,8 @@
 			if (nbt['mAccelMode']==0 && nbt['mRadius']>=0){return YELLOW+nbt['mRadius']+AQUA+'方块'}
 		</line>
 		<line displayname="§d加速等级">
-			if (nbt['mAccelMode']>=0 && nbt['mSpeed']>=0){YELLOW+Math.pow(2,nbt['mSpeed'])+AQUA+'X'}
+			var AccelLevel=[1,2,4,8,16,32,64,128,256,512,512,512,512,512,512,512];
+			if (nbt['mAccelMode']>=0 && nbt['mSpeed']>=0 && nbt['mSpeed']<AccelLevel.length){return YELLOW+AccelLevel[nbt['mSpeed']]+AQUA+'X'}
 		</line>
 		<!--Nxer's机器 -->
 		<line displayname="§b§k6§r§b恒星-行星系数§k6">
