@@ -3,5 +3,5 @@ Mainly fix some bugs and broken APIs
 
 Repo Link https://github.com/czqwq/Omni-Ocular-script
 
-Recommend to use https://github.com/czqwq/OmniOcular-Unofficial
+Recommend to use https://github.com/czqwq/OmniOcular-Unofficial.  
 This version fixes some parser error
